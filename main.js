@@ -18,11 +18,6 @@ function getRandomNum() {
     return Math.floor(Math.random() * 5);
 }
 
-//Returns the position of the dice image name @ randomNum
-function getImagePosition(positionNum) {
-    return diceArr.indexOf(positionNum)
-}
-
 // Set the global variable diceNPositions
 function setPositions() {
     diceOnePosition = getRandomNum();
